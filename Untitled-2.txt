@@ -1,0 +1,3 @@
+lecture on"Leetcode L-17"
+lecture on "Function"
+           "Homework of L-18 & L-17"

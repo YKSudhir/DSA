@@ -1,0 +1,7 @@
+def a_to_power_i(a, i):
+    if i == 0:
+        return 1
+    if i % 2 == 0:
+        return a_to_power_i(a, i // 2) ** 2
+    return a * a_to_power_i(a, i // 2) ** 2
+print(a_to_power_i(2,4))
